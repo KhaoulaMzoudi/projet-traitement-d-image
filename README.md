@@ -8,9 +8,9 @@ Human matting is an extremely interesting task where the goal is to find any hum
 
 I am going to turning on the webcam and taking one  snapshot of that an then i close my snapshot by using <webcam> and The <snapshot> function opens a camera preview on the device and returns the current frame in MATLAB® as an RGB image. The resolution of the image is specified by the Resolution property of the camera object cam.
   
-'''matlab
-  (clc clear  close all warning off ca= webcam; e=ca.snapshot;èèimshow(e);)
-  '''
+```matlab
+  (clc clear  close all warning off ca= webcam; e=ca.snapshot;imshow(e);)```
+  
   
 
 
