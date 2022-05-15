@@ -55,7 +55,7 @@ gm=gk;
    ```
   
   # RESULT 
-  we gonna replace our face and our body part on the image
+  we gonna replace our face and our body part on the new image
   
   
   ```matlab
