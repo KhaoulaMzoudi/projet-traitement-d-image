@@ -26,6 +26,36 @@ gk=imread('Nature.JPG');
 figure; 
 imshow(gk); 
    ```
+  
+  # create mask
+   we gonna use imresize that  returns image gm that has the number of rows and columns specified by the two-element vector [r c] , createMask that returns a binary mask image with pixels inside the ‘e’ set to true and pixels outside the ‘e’ set to false and mkdir  folderName creates the folder folderName. If folderName exists, MATLAB® issues a warning. If the operation is not successful, mkdir throws an error to the Command Window.
+ 
+   ```matlab
+ [r, c , b]=size(e);
+gm=imresize(gk,[r c]);
+mkdir=createMask(e);
+figure;
+imshow(mkdir);
+   ```
+  
+  # changing the background
+  
+  
+  
+  
+  
+  ```matlab
+  gs=gm.*uint8(~mkdir);
+figure;
+imshow(gs);
+subplot(1,2,1);
+imshow(e);
+subplot(1,2,2);
+imshow(gs+e.*uint8(mkdir));
+gm=gk;
+   ```
+
+  
  
   
   
