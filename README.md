@@ -19,6 +19,13 @@ I am going to turning on the webcam and taking one  snapshot of that an then i c
   ```
   
   # Background Matting 
+  I am reading an image that we are going to use to replace our background and that I am also showing.
+  
+  ```matlab
+gk=imread('Nature.JPG'); 
+figure; 
+imshow(gk); 
+   ```
  
   
   
