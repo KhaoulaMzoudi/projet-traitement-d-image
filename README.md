@@ -6,3 +6,16 @@ Human matting is an extremely interesting task where the goal is to find any hum
 
 # Start of the algorithm of the background removal algorithm 
 
+i am going to turning on the webcam and taking one  snapshot of that an then i close my snapshot
+
+clc 
+
+clear  
+
+close all 
+
+warning off 
+
+ca= webcam ;  
+
+e=ca.snapshot;
