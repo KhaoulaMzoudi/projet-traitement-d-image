@@ -17,6 +17,7 @@ I am going to turning on the webcam and taking one  snapshot of that an then i c
   e=ca.snapshot;
   imshow(e);
   
+ # Background Matting 
   
 
 
