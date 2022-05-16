@@ -20,10 +20,10 @@ I am going to turning on the webcam and taking one  snapshot of that an then i c
   e=ca.snapshot;
   imshow(e);
   ```
-  <!-- PROJECT LOGO -->
+  <!-- PROJECT image -->
 <br />
 <div align="center">
-    <img src="image/origine.png" alt="Logo" width="500" height="400">
+    <img src="image/origine.png" alt="image" width="500" height="400">
   
 </div>
   # Upload the new background
