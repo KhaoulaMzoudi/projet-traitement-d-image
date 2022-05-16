@@ -26,7 +26,8 @@ I am going to turning on the webcam and taking one  snapshot of that an then i c
     <img src="image/origine.png" alt="image" width="500" height="400">
   
 </div>
-  # Upload the new background
+  
+ # Upload the new background
   I am reading an image that we are going to use to replace our background and that I am also showing.
   
   ```matlab
@@ -40,7 +41,8 @@ imshow(gk);
     <img src="image/Nature.JPG" alt="image" width="500" height="400">
   
 </div>
-  # create mask on our image
+  
+# create mask on our image
    we gonna use imresize that  returns image gm that has the number of rows and columns specified by the two-element vector [r c] , createMask that returns a binary mask image with pixels inside the ‘e’ set to true and pixels outside the ‘e’ set to false and mkdir that when the folder  creates the folder folderName. If folderName exists, MATLAB issues a warning. If the operation is not successful, mkdir throws an error to the Command Window.
  
    ```matlab
@@ -71,7 +73,7 @@ imshow(gs+e.*uint8(mkdir));
 gm=gk;
    ```
  
-  # RESULT 
+# RESULT 
   we gonna replace our face and our body part on the new image
   
   ```matlab
