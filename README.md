@@ -56,7 +56,7 @@ imshow(mkdir);
     <img src="image/creatmask.png" alt="image" width="500" height="400">
   
 </div>
-  # changing the background
+# changing the background
   we gonna select the new background (nature) and remove only the body part and we gonna  use the uint8 which the  Variables in MATLAB of data type (class) uint8 are stored as 1-byte (8-bit) unsigned integers.
   
   
