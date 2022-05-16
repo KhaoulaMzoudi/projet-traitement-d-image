@@ -34,7 +34,7 @@ gk=imread('Nature.JPG');
 figure; 
 imshow(gk); 
    ```
-    <!-- PROJECT image -->
+<!-- PROJECT image -->
 <br />
 <div align="center">
     <img src="image/Nature.JPG" alt="image" width="500" height="400">
