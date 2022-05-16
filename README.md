@@ -1,4 +1,9 @@
 # Change Background: Greenscreen matting without the green screen
+# summary
+# INTRODUCTION
+# Change Background of an image
+# Change Background of a video
+# Interfaces
 
 # INTRODUCTION
 
@@ -201,6 +206,6 @@ end
 
  ```
   
-  
+# Interfaces
 
 
