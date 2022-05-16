@@ -20,7 +20,12 @@ I am going to turning on the webcam and taking one  snapshot of that an then i c
   e=ca.snapshot;
   imshow(e);
   ```
+  <!-- PROJECT LOGO -->
+<br />
+<div align="center">
+    <img src="image/origine.png" alt="Logo" width="500" height="400">
   
+</div>
   # Upload the new background
   I am reading an image that we are going to use to replace our background and that I am also showing.
   
