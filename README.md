@@ -27,8 +27,9 @@ I am going to turning on the webcam and taking one  snapshot of that an then i c
   
 </div>
   
- # Upload the new background
-  I am reading an image that we are going to use to replace our background and that I am also showing.
+  
+# Upload the new background
+I am reading an image that we are going to use to replace our background and that I am also showing.
   
   ```matlab
 gk=imread('Nature.JPG'); 
@@ -43,7 +44,7 @@ imshow(gk);
 </div>
   
 # create mask on our image
-   we gonna use imresize that  returns image gm that has the number of rows and columns specified by the two-element vector [r c] , createMask that returns a binary mask image with pixels inside the ‘e’ set to true and pixels outside the ‘e’ set to false and mkdir that when the folder  creates the folder folderName. If folderName exists, MATLAB issues a warning. If the operation is not successful, mkdir throws an error to the Command Window.
+we gonna use imresize that  returns image gm that has the number of rows and columns specified by the two-element vector [r c] , createMask that returns a binary mask image with pixels inside the ‘e’ set to true and pixels outside the ‘e’ set to false and mkdir that when the folder  creates the folder folderName. If folderName exists, MATLAB issues a warning. If the operation is not successful, mkdir throws an error to the Command Window.
  
    ```matlab
  [r, c , b]=size(e);
@@ -58,6 +59,7 @@ imshow(mkdir);
     <img src="image/creatmask.png" alt="image" width="500" height="400">
   
 </div>
+  
 # changing the background
 we gonna select the new background (nature) and remove only the body part and we gonna  use the uint8 which the  Variables in MATLAB of data type (class) uint8 are stored as 1-byte (8-bit) unsigned integers.
   
@@ -74,7 +76,7 @@ gm=gk;
    ```
  
 # RESULT 
-  we gonna replace our face and our body part on the new image
+we gonna replace our face and our body part on the new image
   
   ```matlab
   clc
@@ -153,9 +155,10 @@ end
     <img src="image/composite.png" alt="image" width="500" height="400">
   
 </div>
+  
  # Change Background of a video
   
-  im gonna using the same code white loop while that  iteratively executes its child components while a specified condition is true. The While Loop component must have at least one child component; the purpose of this component is to run its children several times. If it does not have any children, this component does not add anything to the report.
+ im gonna using the same code white loop while that  iteratively executes its child components while a specified condition is true. The While Loop component must have at least one child component; the purpose of this component is to run its children several times. If it does not have any children, this component does not add anything to the report.
   
  
 ```matlab
