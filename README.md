@@ -89,7 +89,7 @@ gm=gk;
    ```
  
 ## RESULT 
-we gonna replace our face and our body part on the new image
+we gonna replace our face and our body part on the new image. The Color Thresholder app creates a new tab displaying the image and the color component controls for the HSV color space. In this color space, H represents hue, S represents saturation, and V represents value. The HSV color space uses a dual-direction knob for the H component and two histogram sliders for the S and V components. The tab also contains the point cloud representation of the colors in the image.
   
   ```matlab
   clc
