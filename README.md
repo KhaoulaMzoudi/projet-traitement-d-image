@@ -1,12 +1,18 @@
 # Change Background: Greenscreen matting without the green screen
 
+- ## [summary](#Summary)
+    - ### [INTRODUCTION](#INTRODUCTION)
+    - ### [Change Background of an image](#Change Background of an image)
+    - ### [Change Background of a video](#Change Background of a video)
+    - ### [# Interfaces](## Interfaces)
+
 
 # INTRODUCTION
 
 Human matting is an extremely interesting task where the goal is to find any human in a picture and remove the background from it. It is really hard to achieve due to the complexity of the task, having to find the person or people with the perfect contour. In this post, I review the best techniques used over the years and a novel approach published on November 29th, 2020. Many techniques are using basic computer vision algorithms to achieve this task, such as the GrabCut algorithm, which is extremely fast, but not very precise. 
 
 #  Change Background of an image
-# Upload the image
+### Upload the image
 
 
 I am going to turning on the webcam and taking one  snapshot of that an then i close my snapshot by using <webcam> and The <snapshot> function opens a camera preview on the device and returns the current frame in MATLAB® as an RGB image. The resolution of the image is specified by the Resolution property of the camera object cam.
@@ -28,7 +34,7 @@ I am going to turning on the webcam and taking one  snapshot of that an then i c
 </div>
   
   
-# Upload the new background
+### Upload the new background
 I am reading an image that we are going to use to replace our background and that I am also showing.
   
   ```matlab
@@ -43,7 +49,7 @@ imshow(gk);
   
 </div>
   
-# create mask on our image
+### create mask on our image
 we gonna use imresize that  returns image gm that has the number of rows and columns specified by the two-element vector [r c] , createMask that returns a binary mask image with pixels inside the ‘e’ set to true and pixels outside the ‘e’ set to false and mkdir that when the folder  creates the folder folderName. If folderName exists, MATLAB issues a warning. If the operation is not successful, mkdir throws an error to the Command Window.
  
    ```matlab
@@ -60,7 +66,7 @@ imshow(mkdir);
   
 </div>
   
-# changing the background
+### changing the background
 we gonna select the new background (nature) and remove only the body part and we gonna  use the uint8 which the  Variables in MATLAB of data type (class) uint8 are stored as 1-byte (8-bit) unsigned integers.
   
   
