@@ -255,9 +255,9 @@ end
   
   
   
-  created by  -[MZOUDI Khaoula](https://github.com/KhaoulaMzoudi) 
+  created by : -[MZOUDI Khaoula](https://github.com/KhaoulaMzoudi) 
 
-Project Link: [projet-traitement-dimage][(https://https://github.com/khaoulamzoudi/traitement-dimage/edit/main/README.md)](https://github.com/KhaoulaMzoudi/projet-traitement-dimage.git)
+Project Link:[(https://https://github.com/khaoulamzoudi/traitement-dimage/edit/main/README.md)](https://github.com/KhaoulaMzoudi/projet-traitement-dimage.git)
 
 Encadré par : [Dr. Meryam ELMOUHTADI](https://)
 
