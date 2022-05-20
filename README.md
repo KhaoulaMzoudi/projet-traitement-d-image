@@ -1,10 +1,10 @@
 # Change Background: Greenscreen matting without the green screen
 
 - ## [summary](#Summary)
-    - ### [INTRODUCTION](#INTRODUCTION)
-    - ### [Change Background of an image](# Change Background of an image)
-    - ### [Change Background of a video](# Change Background of a video)
-    - ### [ Interfaces](# Interfaces)
+    - ### [INTRODUCTION](##INTRODUCTION)
+    - ### [Change Background of an image](## Change Background of an image)
+    - ### [Change Background of a video](## Change Background of a video)
+    - ### [ Interfaces](## Interfaces)
 
 
 # INTRODUCTION
